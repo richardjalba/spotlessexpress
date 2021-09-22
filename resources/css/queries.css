@@ -1,0 +1,269 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .steps-box {
+    margin-top: 10px;
+  }
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+  .works-steps {
+    margin-bottom: 40px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+
+  .icon-small {
+    width: 17px;
+    margin-right: 5px;
+  }
+
+  .city-feature {
+    font-size: 90%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .plan-price {
+    font-size: 250%;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 770px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+    /* padding: 5px 5px; */
+    font-size: 20px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+
+  .main-nav {
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9555;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .mobile-nav-icon {
+    margin-top: 10px;
+  }
+  .sticky .mobile-nav-icon i {
+    color: #555;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+
+  .long-copy {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .app-screen {
+    width: 40%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+
+  .works-step div {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+  }
+
+  .works-step {
+    margin-bottom: 20px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25px 0;
+  }
+  .contact-form {
+    width: 100%;
+  }
+
+  .more-services {
+    margin-top: 15px;
+    font-size: 10px;
+  }
+
+  .spotless-title {
+    position: relative;
+    top: 72px;
+    font-size: 72px;
+  }
+
+  .express-title {
+    font-size: 90px;
+    position: relative;
+    letter-spacing: -3px;
+    bottom: 0px;
+    top: 32px;
+  }
+
+  .carwash-title {
+    font-size: 25px;
+    position: relative;
+    top: 13px;
+  }
+
+  .silver {
+    margin-top: 20px;
+  }
+
+  .gold {
+    margin-top: 20px;
+  }
+
+  .section-location {
+    align-items: center;
+  }
+
+  .section-location img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .location-info {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .btn-fam {
+    margin-top: 120px;
+  }
+
+  .info-1 {
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .info-1 h3 {
+    display: none;
+  }
+
+  .info-2 {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    right: 45px;
+    top: 5px;
+  }
+
+  .info-2 h3 {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .contact-p h2 {
+    margin-bottom: 20px;
+  }
+
+  .contact-p p {
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: 11px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+  }
+}
